@@ -121,7 +121,7 @@ class WebhookHandler(webapp2.RequestHandler):
                 img.save(output, 'JPEG')
                 reply(img=output.getvalue())
             else:
-                reply('What command?')
+                reply('دستور اشتباه وارد کردید')
 
         # CUSTOMIZE FROM HERE
 
